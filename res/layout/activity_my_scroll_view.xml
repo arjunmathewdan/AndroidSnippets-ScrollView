@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout01"
+android:layout_width="fill_parent" android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android">
+// Adding Scrollview
+<ScrollView android:id="@+id/ScrollView01"
+android:layout_height="400px" android:layout_width="wrap_content"
+android:layout_gravity="center_horizontal"
+android:scrollbars="horizontal">
+// Adding HorizontalScrollview
+<HorizontalScrollView android:id="@+id/HorizontalScrollView01"
+android:layout_height="fill_parent" android:layout_width="wrap_content">
+<LinearLayout android:id="@+id/LinearLayout02"
+android:layout_width="wrap_content" android:orientation="horizontal"
+android:layout_height="wrap_content"
+android:layout_gravity="center">
+<Button android:text="1" android:id="@+id/Button01"
+android:layout_height="wrap_content" android:layout_width="200px" />
+<Button android:text="2" android:id="@+id/Button02"
+android:layout_height="wrap_content" android:layout_width="200px" />
+<Button android:text="3" android:id="@+id/Button03"
+android:layout_height="wrap_content" android:layout_width="200px" />
+<Button android:text="4" android:id="@+id/Button04"
+android:layout_height="wrap_content" android:layout_width="200px" />
+<Button android:text="5" android:id="@+id/Button05"
+android:layout_height="wrap_content" android:layout_width="200px" />
+<Button android:text="6" android:id="@+id/Button06"
+android:layout_height="wrap_content" android:layout_width="200px" />
+<Button android:text="7" android:id="@+id/Button07"
+android:layout_height="wrap_content" android:layout_width="200px" />
+</LinearLayout>
+</HorizontalScrollView>
+</ScrollView>
+</LinearLayout>
+
+
